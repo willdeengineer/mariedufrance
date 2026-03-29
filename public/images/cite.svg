@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Cite merveilleuse">
+  <rect width="800" height="520" fill="#1b2538"/>
+  <rect y="370" width="800" height="150" fill="#203f56"/>
+  <rect x="110" y="165" width="580" height="200" fill="#bcc3d0"/>
+  <rect x="160" y="210" width="90" height="150" fill="#9ca4b4"/>
+  <rect x="275" y="190" width="110" height="170" fill="#aab3c2"/>
+  <rect x="415" y="210" width="90" height="150" fill="#98a3b2"/>
+  <rect x="530" y="180" width="120" height="180" fill="#acb6c5"/>
+  <rect x="350" y="250" width="80" height="115" fill="#3f3f57"/>
+  <circle cx="620" cy="90" r="42" fill="#f0d28f" opacity="0.82"/>
+</svg>

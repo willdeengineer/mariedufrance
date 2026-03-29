@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Donjon medieval">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2a3f61"/>
+      <stop offset="100%" stop-color="#10192a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <rect y="390" width="800" height="130" fill="#1f2b1f"/>
+  <rect x="300" y="180" width="200" height="230" fill="#6f6f78"/>
+  <rect x="265" y="210" width="36" height="200" fill="#767680"/>
+  <rect x="499" y="210" width="36" height="200" fill="#767680"/>
+  <rect x="365" y="320" width="70" height="90" fill="#2b2432"/>
+  <rect x="325" y="130" width="28" height="40" fill="#6f6f78"/>
+  <rect x="447" y="130" width="28" height="40" fill="#6f6f78"/>
+  <circle cx="400" cy="86" r="42" fill="#f3d38a" opacity="0.8"/>
+</svg>

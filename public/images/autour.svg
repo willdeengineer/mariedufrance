@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Autour et chevalier">
+  <rect width="800" height="520" fill="#162133"/>
+  <circle cx="620" cy="95" r="45" fill="#f0d08f"/>
+  <path d="M110 320 C220 220 330 210 470 250 C570 278 650 252 720 212 C676 284 626 340 546 376 C436 424 314 426 220 392 C176 376 136 354 110 320 Z" fill="#6a7284"/>
+  <path d="M262 276 C304 248 349 238 398 246 C356 284 332 324 321 364 C290 340 274 312 262 276 Z" fill="#4c5361"/>
+  <rect x="520" y="210" width="35" height="132" fill="#9eaecc"/>
+  <rect x="502" y="196" width="72" height="24" fill="#c2cfeb"/>
+  <rect x="515" y="344" width="45" height="22" fill="#7d889f"/>
+</svg>

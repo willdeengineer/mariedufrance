@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Revelation devant la tombe">
+  <rect width="800" height="520" fill="#1a2231"/>
+  <rect x="115" y="80" width="570" height="360" fill="#2d374b" rx="14"/>
+  <ellipse cx="400" cy="372" rx="180" ry="30" fill="#141b25"/>
+  <rect x="260" y="260" width="280" height="95" rx="12" fill="#c7a568"/>
+  <rect x="285" y="280" width="230" height="55" rx="9" fill="#8f6f3c"/>
+  <rect x="185" y="215" width="20" height="95" fill="#f0dfb8"/>
+  <rect x="595" y="215" width="20" height="95" fill="#f0dfb8"/>
+  <circle cx="195" cy="205" r="14" fill="#ffd98d"/>
+  <circle cx="605" cy="205" r="14" fill="#ffd98d"/>
+  <path d="M395 170 L415 170 L410 250 L400 250 Z" fill="#d1d9eb"/>
+  <rect x="375" y="250" width="60" height="17" fill="#9daccc"/>
+</svg>

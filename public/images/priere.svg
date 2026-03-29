@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Dame en priere">
+  <rect width="800" height="520" fill="#182334"/>
+  <rect x="120" y="90" width="560" height="340" rx="18" fill="#2b3a4f"/>
+  <rect x="180" y="130" width="120" height="240" fill="#e8d3a2" opacity="0.22"/>
+  <circle cx="465" cy="210" r="58" fill="#d9c299"/>
+  <rect x="430" y="260" width="70" height="120" rx="25" fill="#b39a70"/>
+  <path d="M420 280 C390 300 365 345 365 390 H560 C560 340 535 300 500 280" fill="#6a5567"/>
+  <path d="M455 315 L480 315 L472 354 L463 354 Z" fill="#f0e4c5"/>
+  <rect x="230" y="305" width="90" height="12" fill="#c6b89a"/>
+  <rect x="260" y="286" width="30" height="52" fill="#c6b89a"/>
+</svg>
