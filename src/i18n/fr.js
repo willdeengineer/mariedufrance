@@ -3,9 +3,11 @@ export const frText = {
     htmlLang: 'fr',
     pageAria: 'Livre interactif de Yonec',
     toggleLabel: 'NL',
-    heroEyebrow: 'Marie de France',
-    heroTitle: 'Yonec, livre interactif',
-    heroIntro: 'Tourne les pages comme un vrai livre, puis clique sur des mots importants dans le texte.',
+    heroEyebrow: 'Arlette et Katinka vous presentent',
+    heroTitle: 'Yonec - Un lai de Marie de France en ligne',
+    heroLinkLai: 'lai',
+    heroLinkMarie: 'Marie de France',
+    heroIntro: 'Lisez l\'histoire comme un vrai livre et cliquez sur les mots surlignés pour en savoir plus',
     heroImageAlt: 'Illustration du lai de Yonec',
     openBook: 'Ouvrir le livre',
     bookLayoutAria: 'Livre et panneau explicatif',
@@ -34,8 +36,8 @@ export const frText = {
   insights: {
     start: {
       title: 'Point de depart',
-      image: '/images/revelation.svg',
-      info: 'Clique sur un mot dans le livre pour commencer l exploration.',
+      image: 'https://moltensulfur.com/wp-content/uploads/2022/07/260.-Promo.jpeg.',
+      info: 'Clique sur un mot dans le livre pour commencer l\'exploration.',
       quote: 'Selectionne un mot cle dans le texte pour afficher son explication ici.',
     },
     donjon: {
@@ -46,14 +48,14 @@ export const frText = {
     },
     yonec: {
       title: 'Yonec',
-      image: '/images/yonec.jpg',
+      image: '/images/afbyonec.png',
       info: 'La plainte est le moment declencheur: la parole de la dame ouvre l aventure merveilleuse.',
       quote: 'Dieu tout-puissant, exauce mon desir!',
     },
     autour: {
-      title: 'L autour',
-      image: '/images/autour.svg',
-      info: 'Muldumarec apparait sous forme d oiseau, melange de merveilleux medieval et de desir courtois.',
+      title: 'L\'autour',
+      image: 'https://fauconnerie-francaise.com/wp-content/uploads/2023/05/autour-des-palombes-1.jpg',
+      info: 'L\'autour est un oiseau de proie, comme l\'aigle ou le faucon. Il appartient à la famille des Accipitridae. C\'est un chasseur rapide et agile, capable de voler à grande vitesse entre les arbres pour attraper ses proies. Dans le lai d\'Yonec, le chevalier Muldumarec se transforme en autour pour rendre visite à la dame enfermée dans sa tour. L\'autour représente ici la liberté, la puissance et l\'amour impossible.',
       quote: 'Elle apercoit l ombre d un grand oiseau... puis il devient un beau chevalier.',
     },
     piege: {
@@ -82,9 +84,21 @@ export const frText = {
     },
     muldumarec: {
       title: 'Muldumarec',
-      image: '/images/revelation.svg',
+      image: 'https://photos.yodayo.com/65d5c202-7b13-4a85-9506-147fda2e92d6_width=1200&height=1200.webp',
       info: 'Muldumarec transforme le secret intime en revelation publique devant toute la communaute.',
       quote: 'Devant Muldumarec, elle raconte toute l aventure.',
+    },
+    lai: {
+      title: 'Le lai',
+      image: 'https://gallica.bnf.fr/ark:/12148/btv1b105326322/f41.highres',
+      info: 'À l’origine, le lai est un bref poème lyrique chanté par des jongleurs bretons qui s’accompagnaient de la harpe celtique. Contrairement au fabliau, par exemple, le lai présente un registre d’écriture soutenue, sans rien de vulgaire. Il raconte une histoire d’amour tout en empruntant à un fonds de légendes et au merveilleux. La chanson se transforme ainsi en un petit conte, où l’imaginaire tient une place importante. Dans le lai d’Yonec, un chevalier peut se métamorphoser en faucon.',
+      quote: 'Ceux qui entendirent cette aventure en firent un lai.',
+    },
+    marie: {
+      title: 'Marie de France',
+      image: 'https://www.readingmuseum.org.uk/sites/default/files/marie_de_france.png',
+      info: 'La plupart des lais sont anonymes, mais nous connaissons l’auteur d’une serie de lais, composés entre 1160 et 1178 : Marie de France. La vie de Marie de France reste obscure : on sait qu’elle fréquenta la cour d’ Henri II, roi d’Angleterre, et c’est tout. Elle présente son oeuvre comme la tradition en vers de récits entendues par elle en Bretagne. Elle veut  « conter par rimes » des aventures et des légendes. On retrouve donc l’attirail du merveilleux : passage dans un au-déla ou dans une contrée imaginaire, métamorphoses des animaux et des êtres, prédictions et miracles, etc. Le lai du Chèvrefeuille reprend un épisode de Tristan, mais tout les poèmes de Marie tournent autour de l’aventure d’aimer, mettant l’accent sur le pathétique et l’affectif, voire le mélancolique.',
+      quote: '« Je vais donner mon nom pour qu’on s’en souvienne : j’ai nom Marie et je suis de France. »'
     },
   },
   quizQuestions: [

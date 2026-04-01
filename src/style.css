@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'MedievalMystery';
+  src: url('/MedievalMystery.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mevno1';
+  src: url('/mevno1.ttf') format('truetype');
+  font-display: swap;
+}
+
 :root {
   --bg: #1b130d;
   --panel: #2b1d14;
@@ -93,7 +105,7 @@ body {
   grid-template-columns: minmax(0, 1fr) 320px;
   align-items: center;
   gap: 1rem;
-  padding: 1.4rem 1.6rem;
+  padding: 1.75rem 1.8rem;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.55s ease, transform 0.55s ease;
@@ -115,6 +127,9 @@ body {
 }
 
 .hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
   min-width: 0;
 }
 
@@ -144,10 +159,46 @@ h1 {
   font-size: clamp(1.9rem, 4vw, 3rem);
 }
 
+#hero-title {
+  margin-top: 0;
+  font-family: 'MedievalMystery', 'Cinzel', 'Baskerville', serif;
+  color: #f4cf8a;
+  font-size: clamp(2.25rem, 4.8vw, 3.6rem);
+  letter-spacing: 0.045em;
+  line-height: 1.06;
+  font-weight: 400;
+  text-shadow:
+    0 1px 0 #603d1a,
+    0 3px 0 rgba(66, 39, 16, 0.55),
+    0 10px 18px rgba(24, 12, 6, 0.45);
+}
+
 .intro {
-  margin: 0.7rem 0 0;
+  margin: 0;
   color: var(--text);
-  font-size: 1.08rem;
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+}
+
+.title-link {
+  font: inherit;
+  border: 0;
+  border-bottom: 2px dashed rgba(244, 207, 138, 0.95);
+  background: transparent;
+  color: #f4cf8a;
+  text-shadow:
+    0 1px 0 #603d1a,
+    0 3px 0 rgba(66, 39, 16, 0.55),
+    0 10px 18px rgba(24, 12, 6, 0.45);
+  padding: 0;
+  cursor: pointer;
+  line-height: 1;
+  vertical-align: baseline;
+  transition: color 140ms ease, border-bottom-color 140ms ease;
+}
+
+.title-link:hover {
+  color: #ffdfaa;
+  border-bottom-color: #ffdfaa;
 }
 
 .cta,
@@ -259,10 +310,11 @@ h1 {
 
 .book-page .page-content p::first-letter {
   float: left;
-  font-family: 'Cinzel', 'Baskerville', serif;
-  font-size: 1.95rem;
-  line-height: 0.95;
+  font-family: 'Mevno1', 'Cinzel', 'Baskerville', serif;
+  font-size: 2.75rem;
+  line-height: 1.2;
   margin-right: 0.2rem;
+  margin-top: 0.14em;
   color: #8c4a1d;
 }
 
