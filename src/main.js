@@ -115,7 +115,8 @@ app.innerHTML = `
 
   <main id="page-root" class="page" aria-label="${t().ui.pageAria}">
     <div class="top-actions">
-      <button id="lang-toggle" class="lang-toggle" type="button">${t().ui.toggleLabel}</button>
+      <button id="music-toggle" class="top-action-btn music-toggle" type="button">${t().ui.musicOn}</button>
+      <button id="lang-toggle" class="top-action-btn lang-toggle" type="button">${t().ui.toggleLabel}</button>
     </div>
     <header class="hero">
       <div class="hero-copy">
@@ -153,6 +154,7 @@ app.innerHTML = `
         <h2 id="book-term" class="side-title">${t().insights[defaultBookKey].title}</h2>
         <p id="book-info" class="book-info">${t().insights[defaultBookKey].info}</p>
         <blockquote id="book-quote" class="book-quote">${t().insights[defaultBookKey].quote}</blockquote>
+        <p id="book-source" class="book-source"></p>
       </aside>
     </section>
 
@@ -163,6 +165,7 @@ app.innerHTML = `
 `
 
 const hero = document.querySelector('.hero')
+const musicToggle = document.querySelector('#music-toggle')
 const langToggle = document.querySelector('#lang-toggle')
 const heroEyebrow = document.querySelector('#hero-eyebrow')
 const heroTitle = document.querySelector('#hero-title')
@@ -186,9 +189,11 @@ const bookImage = document.querySelector('#book-image')
 const bookTerm = document.querySelector('#book-term')
 const bookInfo = document.querySelector('#book-info')
 const bookQuote = document.querySelector('#book-quote')
+const bookSource = document.querySelector('#book-source')
 
 let spreadStart = 0
 let turning = false
+let isSongEnabled = false
 
 function buildHeroTitleHtml() {
   const ui = t().ui
@@ -218,6 +223,8 @@ function applyStaticText() {
 
   document.documentElement.lang = ui.htmlLang
   pageRoot.setAttribute('aria-label', ui.pageAria)
+  musicToggle.textContent = isSongEnabled ? ui.musicOff : ui.musicOn
+  musicToggle.setAttribute('aria-pressed', String(isSongEnabled))
   langToggle.textContent = ui.toggleLabel
   heroEyebrow.textContent = ui.heroEyebrow
   heroTitle.innerHTML = buildHeroTitleHtml()
@@ -251,6 +258,15 @@ function showBookInsight(key) {
   bookTerm.textContent = detail.title
   bookInfo.textContent = detail.info
   bookQuote.textContent = detail.quote
+
+  if (detail.source) {
+    const sourceLabel = t().ui.sourceLabel || 'Source'
+    bookSource.hidden = false
+    bookSource.textContent = `${sourceLabel}: ${detail.source}`
+  } else {
+    bookSource.hidden = true
+    bookSource.textContent = ''
+  }
 }
 
 function paragraphBlock(pageText) {
@@ -301,6 +317,7 @@ function turnPage(direction) {
 
 prevPageButton.addEventListener('click', () => turnPage('prev'))
 nextPageButton.addEventListener('click', () => turnPage('next'))
+musicToggle.addEventListener('click', toggleSong)
 heroTitle.addEventListener('click', (event) => {
   const target = event.target.closest('.title-link')
   if (!target) {
@@ -347,23 +364,21 @@ backgroundSong.preload = 'auto'
 backgroundSong.loop = true
 backgroundSong.volume = 0.55
 
-let songStarted = false
+function syncMusicState() {
+  isSongEnabled = !backgroundSong.paused
+  musicToggle.textContent = isSongEnabled ? t().ui.musicOff : t().ui.musicOn
+  musicToggle.setAttribute('aria-pressed', String(isSongEnabled))
+}
 
-function tryStartSong() {
-  if (songStarted) {
+function toggleSong() {
+  if (backgroundSong.paused) {
+    backgroundSong.play().catch(() => {
+      syncMusicState()
+    })
     return
   }
 
-  backgroundSong.play()
-    .then(() => {
-      songStarted = true
-      window.removeEventListener('pointerdown', tryStartSong)
-      window.removeEventListener('keydown', tryStartSong)
-      window.removeEventListener('touchstart', tryStartSong)
-    })
-    .catch(() => {
-      // Some browsers block autoplay until user interaction.
-    })
+  backgroundSong.pause()
 }
 
 function handleQuizAnswer(btn) {
@@ -433,15 +448,15 @@ function initQuiz() {
   renderQuiz()
 }
 
+backgroundSong.addEventListener('play', syncMusicState)
+backgroundSong.addEventListener('pause', syncMusicState)
+
 applyStaticText()
 refreshPagesForLanguage()
 renderSpread()
 showBookInsight(defaultBookKey)
 initQuiz()
-tryStartSong()
-window.addEventListener('pointerdown', tryStartSong, { once: true })
-window.addEventListener('keydown', tryStartSong, { once: true })
-window.addEventListener('touchstart', tryStartSong, { once: true })
+syncMusicState()
 
 setTimeout(() => {
   hero.classList.add('entered')

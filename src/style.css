@@ -86,10 +86,12 @@ body {
 .top-actions {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.55rem;
   margin-bottom: 0.7rem;
 }
 
-.lang-toggle {
+.top-action-btn {
   font: inherit;
   border: 1px solid rgba(240, 214, 160, 0.95);
   border-radius: 999px;
@@ -437,6 +439,13 @@ h1 {
   padding-left: 0.7rem;
   border-left: 2px solid rgba(231, 201, 141, 0.7);
   color: var(--muted);
+}
+
+.book-source {
+  margin: 0.7rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  color: rgba(231, 201, 141, 0.82);
 }
 
 .mini-quiz {
