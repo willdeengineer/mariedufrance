@@ -32,15 +32,14 @@ export const nlText = {
     { key: 'autour', label: 'havik' },
     { key: 'bretagne', label: 'Bretagne' },
     { key: 'morte', label: 'dood' },
-    { key: 'aventure', label: 'avontuur' },
     { key: 'courtoise', label: 'hoffelijk' },
     { key: 'courtois', label: 'hoffelijk' },
     { key: 'jaloux', label: 'jaloers' },
     { key: 'amour', label: 'liefde' },
-    { key: 'Dieu', label: 'God' },
-    { key: 'piege', label: 'val' },
+    { key: 'dieu', label: 'god' },
+    { key: 'piège', label: 'val' },
   ],
-  bookText: `Sinds ik begonnen ben met het schrijven van lais, wil ik daar niet meer mee stoppen: ik zal alle avonturen die ik ken in verzen gieten. Daarom vertel ik eerst over Yonec, over de plaats waar hij werd geboren en over de ontmoeting van zijn ouders. De ridder die yonec verwekte heette muldumarec.
+  bookText: `Sinds ik begonnen ben met het schrijven van lais, wil ik daar niet meer mee stoppen: ik zal alle avonturen die ik ken in verzen gieten. Daarom vertel ik eerst over Yonec, over de plaats waar hij werd geboren en over de ontmoeting van zijn ouders. De ridder die Yonec verwekte heette muldumarec.
 
 Vroeger leefde er in Bretagne een zeer machtige oude heer. Hij was heer van Caerwent en erkend meester van het hele land. De stad lag aan de Duelas en ooit voeren er schepen langs. De heer was al erg oud. Omdat hij een grote erfenis zou achterlaten, nam hij een vrouw om kinderen te krijgen die hem konden opvolgen.
 
@@ -135,24 +134,18 @@ Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geli
     bretagne: {
       title: 'Bretagne',
       image: '/images/afbbretagne.png',
-      info: 'Bretagne verwijst hier naar de regio\'s Ierland, Wales en Cornwall. In het lai van Yonec is het Bretonse wonderbaarlijke veel aanwezig, dat wil zeggen: Wonderbaarlijk register gebaseerd op reuzen, dwergen, draken, magie, betoverde bronnen, spookhuizen, magische ridders (geheel in het groen gekleed, op een groen paard), feeën (als minnares, wreed, welwillend), wezens die zich kunnen metamorfoseren, zoals Muldamarec die van een vogel in een ridder kan veranderen.',
+      info: 'Bretagne verwijst hier naar de regio\'s Ierland, Wales en Cornwall. In het lai van Yonec is het Bretonse wonderbaarlijke veel aanwezig, dat wil zeggen: Wonderbaarlijk register gebaseerd op reuzen, dwergen, draken, magie, betoverde bronnen, spookhuizen, magische ridders, feeën, wezens die zich kunnen metamorfoseren, zoals Muldamarec die van een vogel in een ridder kan veranderen.',
       quote: '"Vroeger leefde er in Bretagne een zeer machtige oude heer. Hij was heer van Caerwent en erkend meester van het hele land."',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
     morte: {
       title: 'De dood',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5BXaotKzoQqM2AyGzMNDA_ni-YFj62060OA&s',
-      info: '',
-      quote: '-',
+      info: 'Het verhaal van Yonec beschrijft de verbintenis tussen een sterveling en een bovennatuurlijk wezen, volgens een universeel scenario: de slecht gehuwde vrouw uit de lai van Yonec vindt geluk bij een bovennatuurlijk wezen Muldumarec, zolang ze het geheim over haar liefde bewaart. Ze overtreedt het verbodene en verliest zo haar geliefde. De dame begaat een fout: in haar verlangen haar minnaar voortdurend te zien, vergeet ze de maat te bewaren, waardoor het geheim ontdekt wordt en de vogel-ridder sterft. De vereniging van de geliefden zal zich pas in de dood voltrekken. Het koppel wordt uiteindelijk in de dood herenigd. Muldumarec en zijn geliefde worden in hetzelfde graf begraven.',
+      quote: '"Lieve vriendin," zei hij, "ik sterf omdat ik van u hield. Ik had voorspeld dat verraad ons zou treffen."',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
-    aventure: {
-      title: 'Het avontuur',
-      image: '/images/revelation.svg',
-      info: '-',
-      quote: '-',
-      source: "Voor de bron, klik op de Franse versie van de tekst",
-    },
+   
     courtoise: {
       title: 'Hoffelijkheid',
       image: 'https://www.moyenagepassion.com/wp-content/uploads/2024/09/amour-courtois-medieval-enluminure-codex-manesse.jpg',
@@ -167,7 +160,7 @@ Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geli
       quote: '"Het jonge meisje dat men hem gaf, was van hoge afkomst, wijs en hoffelijk, en uitzonderlijk mooi. Hij werd meteen op haar schoonheid verliefd."',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
-    Muldumarec: {
+     Muldumarec: {
       title: 'Muldumarec',
       image: 'https://photos.yodayo.com/65d5c202-7b13-4a85-9506-147fda2e92d6_width=1200&height=1200.webp',
       info: 'Muldumarec verbindt geheime liefde met de latere publieke waarheid.',
@@ -188,14 +181,14 @@ Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geli
       quote: '"Het jonge meisje dat men hem gaf, was van hoge afkomst, wijs en hoffelijk, en uitzonderlijk mooi. Hij werd meteen op haar schoonheid verliefd."',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
-     Dieu: {
+     dieu: {
       title: 'God',
-      image: '/images/revelation.svg',
-      info: '-',
-      quote: 'Zij zal het zwaard aan haar zoon geven.',
+      image: '/images/afbdieu.png',
+      info: 'God speelt een belangrijke rol in Yonec. De dame bidt tot God om haar een minnaar te sturen: "Almachtige God, vervul mijn wens!" Muldumarec bewijst zijn christelijk geloof door het sacrament te ontvangen. Aan het einde van de lai is het God die de familie naar de abdij leidt waar Muldumarec rust: "Het is God die ons hierheen heeft geleid!" De aanwezigheid van God in de lai toont de christianisering van een pre-christelijke wereld.',
+      quote: '"Almachtige God, vervul mijn wens!"',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
-     piege: {
+     piège: {
       title: 'Val',
       image: 'https://www.shutterstock.com/image-photo/wrought-iron-fence-metal-260nw-2684767823.jpg',
       info: 'De val is het uitlokkende element van de tragedie in Yonec. De jaloerse echtgenoot laat grote ijzeren pennen met scherpe punten maken en plaatst ze op het venster waardoor Muldumarec binnenkomt. De val verwondt Muldumarec dodelijk en veroorzaakt zijn dood. Het symboliseert het verraad en het einde van de onmogelijke liefde.',

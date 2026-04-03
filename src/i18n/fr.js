@@ -32,14 +32,13 @@ export const frText = {
     { key: 'autour', label: 'autour' },
     { key: 'bretagne', label: 'bretagne' },
     { key: 'morte', label: 'morte' },
-    { key: 'aventure', label: 'aventure' },
     { key: 'courtoise', label: 'courtoise' },
-     { key: 'courtois', label: 'courtois' },
+    { key: 'courtois', label: 'courtois' },
     { key: 'muldumarec', label: 'muldumarec' },
     { key: 'jaloux', label: 'jaloux' },
     { key: 'amour', label: 'amour' },
     { key: 'Dieu', label: 'Dieu' },
-    { key: 'piege', label: 'piège' },
+    { key: 'piège', label: 'piège' },
   ],
   insights: {
     start: {
@@ -73,24 +72,18 @@ export const frText = {
     bretagne: {
       title: 'Bretagne',
       image: '/images/afbbretagne.png',
-      info: 'Grande Bretagne: c\'est à dire à cette époque d\'Irlande, du pays de Galles, de Cornouailles. Dans le lai d’Yonec il y a une grande présence du merveilleux breton, c’est à dire: registre merveilleux reposant sur des géants, nains, dragons, magie, fontaines enchantées, châteaux hantés, chevaliers magiques (tout vêtu de vert, sur cheval vert), fées (amantes, cruelles, bienveillantes), créatures capables de se métamorphoser, comme Muldamarec qui peut se transformer en oiseaux.',
+      info: 'Grande Bretagne: c\'est à dire à cette époque d\'Irlande, du pays de Galles, de Cornouailles. Dans le lai d’Yonec il y a une grande présence du merveilleux breton, c’est à dire: registre merveilleux reposant sur des géants, nains, dragons, magie, fontaines enchantées, châteaux hantés, chevaliers magiques, fées, créatures capables de se métamorphoser, comme Muldamarec qui peut se transformer en oiseau.',
       quote: '« Jadis vivait en Bretagne un vieillard très puissant. Il était seigneur de Caerwent et maître reconnu de tout le pays.»',
       source: "Céline Zaepffel, Séance 4, Littérature médiévale [cours de B1], Leiden Universiteit, 3 mars 2026",
     },
     morte: {
       title: 'La mort',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5BXaotKzoQqM2AyGzMNDA_ni-YFj62060OA&s',
-      info: '-',
-      quote: '-',
-      source: "-",
+      info: 'L’histoire d’Yonec conte l\'union d\'un mortel et d\'un être surnaturel, selon un scénario universel : la mal mariée du lai d\'Yonec trouve le bonheur auprès d\'un être surnaturel Muldumarec aussi longtemps qu\'elle préserve le secret sur son amour. Elle transgresse l\'interdit et perd son amour. La dame commet une faute : dans son désir de voir sans cesse son amant, elle oublie de garder la mesure, provoquant la découverte du secret et la mort du chevalier-oiseau. L’union des amants ne se réalisera que dans la mort. Le couple est finalement réuni dans la mort. Muldumarec et son amie sont ensevelis dans le même tombeau.',
+      quote: '« Ma douce amie, lui dit-il, je perds la vie pour vous avoir aimee. Je vous avais predit ce qui arriverait, et que votre attitude causerait notre mort. »',
+      source: "M. DE FRANCE, Lais, Paris, Librairie Générale Française, 2013",
     },
-    aventure: {
-      title: 'L\'aventure',
-      image: '/images/revelation.svg',
-      info: '-',
-      quote: '-.',
-      source: "-",
-    },
+    
     courtoise: {
       title: 'La courtoisie',
       image: 'https://www.moyenagepassion.com/wp-content/uploads/2024/09/amour-courtois-medieval-enluminure-codex-manesse.jpg',
@@ -126,14 +119,14 @@ export const frText = {
       quote: '« La jeune fille qu’on lui donna était de haut rang, sage et courtoise, et d’une grande beauté : il s’en éprit aussitôt, pour sa beauté. Qu’en dire de plus? »',
       source: "M. DE FRANCE, Lais, Paris, Librairie Générale Française, 2013",
     },
-    dieu: {
+    Dieu: {
       title: 'Dieu',
-      image: '/images/revelation.svg',
-      info: '-',
-      quote: '-',
-      source: "-",
+      image: '/images/afbdieu.png',
+      info: 'Dieu joue un rôle important dans Yonec. La dame prie Dieu de lui envoyer un amant : « Dieu tout-puissant, exauce mon désir! » Muldumarec prouve sa foi chrétienne en recevant le sacrement. À la fin du lai, c\'est Dieu qui guide la famille vers l\'abbaye où repose Muldumarec : « C\'est Dieu qui nous a conduits ici! » La présence de Dieu dans le lai montre la christianisation d\'un monde préchrétien.',
+      quote: '« Dieu tout-puissant, exauce mon désir! »',
+      source: "Céline Zaepffel, Séance 6, Littérature médiévale [cours de B1], Leiden Universiteit, 10 mars 2026",
     },
-    piege: {
+    piège: {
       title: 'Le piège',
       image: 'https://www.shutterstock.com/image-photo/wrought-iron-fence-metal-260nw-2684767823.jpg',
       info: 'Le piège est l\'élément déclencheur de la tragédie dans Yonec. Le mari jaloux fait fabriquer de grandes broches de fer aux pointes acérées et les place sur la fenêtre par laquelle Muldumarec entre. Le piège blesse mortellement Muldumarec et provoque sa mort. Il symbolise la trahison et la fin de l\'amour impossible.',
