@@ -135,7 +135,7 @@ export const frText = {
     },
     lai: {
       title: 'Le lai',
-      image: 'https://gallica.bnf.fr/ark:/12148/btv1b105326322/f41.highres',
+      image: '/images/afblai.png',
       info: 'À l’origine, le lai est un bref poème lyrique chanté par des jongleurs bretons qui s’accompagnaient de la harpe celtique. Le lai raconte une histoire d’amour tout en empruntant à un fonds de légendes et au merveilleux. La chanson se transforme ainsi en un petit conte, où l’imaginaire tient une place importante. Dans le lai d’Yonec, un chevalier peut se métamorphoser en autour.',
       quote: 'Lai : récit plutôt bref, basé sur chansons bretonnes perdues, en vers octosyllabique à rime plate',
       source: "X. DARCOS, Histoire de la littérature française, Paris, Hachette livre, 2013 | Céline Zaepffel, Séance 4, Littérature médiévale [cours de B1], Leiden Universiteit, 3 mars 2026",

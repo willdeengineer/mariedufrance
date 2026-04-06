@@ -34,12 +34,13 @@ export const nlText = {
     { key: 'morte', label: 'dood' },
     { key: 'courtoise', label: 'hoffelijk' },
     { key: 'courtois', label: 'hoffelijk' },
-    { key: 'jaloux', label: 'jaloers' },
+    { key: 'jaloux', label: 'jaloerse' },
     { key: 'amour', label: 'liefde' },
     { key: 'dieu', label: 'god' },
     { key: 'piège', label: 'val' },
+    { key: 'Muldumarec', label: 'Muldumarec' },
   ],
-  bookText: `Sinds ik begonnen ben met het schrijven van lais, wil ik daar niet meer mee stoppen: ik zal alle avonturen die ik ken in verzen gieten. Daarom vertel ik eerst over Yonec, over de plaats waar hij werd geboren en over de ontmoeting van zijn ouders. De ridder die Yonec verwekte heette muldumarec.
+  bookText: `Sinds ik begonnen ben met het schrijven van lais, wil ik daar niet meer mee stoppen: ik zal alle avonturen die ik ken in verzen gieten. Daarom vertel ik eerst over Yonec, over de plaats waar hij werd geboren en over de ontmoeting van zijn ouders. De ridder die Yonec verwekte heette Muldumarec.
 
 Vroeger leefde er in Bretagne een zeer machtige oude heer. Hij was heer van Caerwent en erkend meester van het hele land. De stad lag aan de Duelas en ooit voeren er schepen langs. De heer was al erg oud. Omdat hij een grote erfenis zou achterlaten, nam hij een vrouw om kinderen te krijgen die hem konden opvolgen.
 
@@ -73,7 +74,7 @@ Enkele dagen later deed de heer alsof hij op reis ging. Zodra hij weg was, verbo
 
 De heer liet onmiddellijk een dodelijke val maken: grote ijzeren pinnen, scherper dan scheermessen. Hij zette ze vast bij het venster waarlangs de ridder binnenkwam. De volgende ochtend vertrok hij opnieuw zogezegd op jacht.
 
-Toen de dame haar wens uitsprak, vloog muldumarec naar het venster. Maar de pinnen doorboorden hem en zijn bloed stroomde. Toch wist hij de kamer te bereiken en op het bed neer te strijken. Alles lag onder het bloed. De dame zag zijn wond en was radeloos.
+Toen de dame haar wens uitsprak, vloog Muldumarec naar het venster. Maar de pinnen doorboorden hem en zijn bloed stroomde. Toch wist hij de kamer te bereiken en op het bed neer te strijken. Alles lag onder het bloed. De dame zag zijn wond en was radeloos.
 
 "Lieve vriendin," zei hij, "ik sterf omdat ik van u hield. Ik had voorspeld dat verraad ons zou treffen." Ze viel flauw. Toen ze bijkwam, troostte hij haar: ze droeg zijn kind, een zoon die dapper zou zijn en hen beiden zou wreken. Die zoon moest yonec heten.
 
@@ -87,9 +88,9 @@ Ze wilde liever met hem sterven dan naar haar man terugkeren. Maar hij stelde ha
 
 Daarna gaf hij haar een kostbaar kleed en dwong haar te vertrekken. Met de ring en het zwaard ging ze terug. Nauwelijks had ze de stad verlaten of ze hoorde klokken en gejammer: haar geliefde was gestorven. Ze viel meerdere keren flauw van verdriet, maar keerde uiteindelijk via de heuvel terug naar haar land.
 
-Naast haar man leefde ze nog lange tijd zonder verwijten, beschuldigingen of spot: de ring beschermde haar. Haar zoon werd geboren en kreeg de naam yonec. Hij groeide op tot een uitzonderlijk mooie, dappere en vrijgevige ridder.
+Naast haar man leefde ze nog lange tijd zonder verwijten, beschuldigingen of spot: de ring beschermde haar. Haar zoon werd geboren en kreeg de naam Yonec. Hij groeide op tot een uitzonderlijk mooie, dappere en vrijgevige ridder.
 
-Toen hij volwassen was en tot ridder werd geslagen, gebeurde wat voorspeld was. Op het feest van Sint-Aaron ging de oude heer met zijn vrouw en yonec op reis. Een gids bracht hen naar een prachtig kasteel met een abdij.
+Toen hij volwassen was en tot ridder werd geslagen, gebeurde wat voorspeld was. Op het feest van Sint-Aaron ging de oude heer met zijn vrouw en Yonec op reis. Een gids bracht hen naar een prachtig kasteel met een abdij.
 
 Na de maaltijd toonde de abt hun het klooster. In het kapittel zagen ze een groot graf, bedekt met kostbare stof en gouden borduursel. Rondom brandden kaarsen in gouden kandelaars, en wierook steeg op om de dode te eren. Ze vroegen wie daar lag.
 
@@ -97,9 +98,9 @@ De mensen begonnen te huilen en vertelden dat daar de beste en meest geliefde ri
 
 Toen riep de dame haar zoon en zei: "Mijn zoon, God heeft ons hierheen geleid. Hier ligt uw vader. Deze oude man heeft hem onrechtvaardig gedood." Ze gaf hem het zwaard dat ze al die jaren had bewaard en vertelde voor iedereen het hele verhaal: hoe haar minnaar haar bezocht en hoe hij verraderlijk werd vermoord.
 
-Daarna viel ze op het graf neer en stierf zonder nog een woord te spreken. Toen yonec zijn moeder dood zag, onthoofdde hij zijn stiefvader met het zwaard van zijn vader. Zo wreekte hij beide ouders.
+Daarna viel ze op het graf neer en stierf zonder nog een woord te spreken. Toen Yonec zijn moeder dood zag, onthoofdde hij zijn stiefvader met het zwaard van zijn vader. Zo wreekte hij beide ouders.
 
-Toen de inwoners alles hoorden, haalden ze plechtig het lichaam van de dame op en legden haar in hetzelfde graf bij haar geliefde. Daarna maakten ze yonec tot hun heer.
+Toen de inwoners alles hoorden, haalden ze plechtig het lichaam van de dame op en legden haar in hetzelfde graf bij haar geliefde. Daarna maakten ze Yonec tot hun heer.
 
 Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geliefden te bewaren.`,
   insights: {
@@ -134,7 +135,7 @@ Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geli
     bretagne: {
       title: 'Bretagne',
       image: '/images/afbbretagne.png',
-      info: 'Bretagne verwijst hier naar de regio\'s Ierland, Wales en Cornwall. In het lai van Yonec is het Bretonse wonderbaarlijke veel aanwezig, dat wil zeggen: Wonderbaarlijk register gebaseerd op reuzen, dwergen, draken, magie, betoverde bronnen, spookhuizen, magische ridders, feeën, wezens die zich kunnen metamorfoseren, zoals Muldamarec die van een vogel in een ridder kan veranderen.',
+      info: 'Bretagne verwijst hier naar de regio\'s Ierland, Wales en Cornwall. In het lai van Yonec is het Bretonse wonderbaarlijke veel aanwezig, dat wil zeggen: Wonderbaarlijk register gebaseerd op reuzen, dwergen, draken, magie, betoverde bronnen, spookhuizen, magische ridders, feeën, wezens die zich kunnen metamorfoseren, zoals Muldumarec die van een vogel in een ridder kan veranderen.',
       quote: '"Vroeger leefde er in Bretagne een zeer machtige oude heer. Hij was heer van Caerwent en erkend meester van het hele land."',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
@@ -197,8 +198,8 @@ Zo werd dit verhaal later een lai, om de pijn en het verdriet van deze twee geli
     },
     lai: {
       title: 'Lai',
-      image: 'https://gallica.bnf.fr/ark:/12148/btv1b105326322/f41.highres',
-      info: 'Oorspronkelijk was de lai een kort lyrisch gedicht dat werd gezongen door Bretonse jongleurs die zichzelf begeleidden op de Keltische harp. De lai vertelt een liefdesverhaal en put daarbij uit een rijke bron van legenden en het wonderbaarlijke. Het lied verandert zo in een klein verhaal, waarin de verbeelding een belangrijke plaats inneemt. In de lai van Yonec kan een ridder zich in een valk veranderen.',
+      image: '/images/afblai.png',
+      info: 'Oorspronkelijk was de lai een kort lyrisch gedicht dat werd gezongen door Bretonse jongleurs die zichzelf begeleidden op de Keltische harp. De lai vertelt een liefdesverhaal en put daarbij uit een rijke bron van legenden en het wonderbaarlijke. Het lied verandert zo in een klein verhaal, waarin de verbeelding een belangrijke plaats inneemt. In de lai van Yonec kan een ridder zich in een havik veranderen.',
       quote: 'Lai: een kort verhaal in versvorm, gebaseerd op verloren gegane Bretonse liederen, waarbij elke versregel acht lettergrepen heeft en twee opeenvolgende versregels op elkaar rijmen.',
       source: "Voor de bron, klik op de Franse versie van de tekst",
     },
